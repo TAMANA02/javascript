@@ -12,7 +12,7 @@ let userEmail;
 const id=Symbol('123')
 const anotherId=Symbol('123') //symbol is for uniqueness 
 
-console.log(id==anotherId)//-->false 
+//console.log(id==anotherId)//-->false 
 
 const BigInt=2645724528n
 
@@ -34,4 +34,30 @@ const myfunction=function() {
 
 
 // to find the datatype of any variable
-console.log(typeof )
+//console.log(typeof myobj)
+
+//-----------------------------------------------------------------------------------------------------------------------------
+
+
+//stack(primitive) 
+//stack means we have a copy of that used variable
+
+
+let school="satbhrawanschool"
+let anotherschool=school
+anotherschool="salwanschool"
+console.log(anotherschool)//-->salwanschool
+console.log(school)//-->satbhrawanschool
+
+//heap(non-primitive)
+//heap means we have the refrence means the original value
+let userone={
+    email:"abc@gmail.com"
+}
+
+let usertwo=userone
+
+usertwo.email= "tamana@gmail.com"
+
+console.log(userone.email)//-->tamana@gmail.com
+console.log(usertwo.email)//-->tamana@gmail.com
