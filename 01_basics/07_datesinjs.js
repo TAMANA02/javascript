@@ -9,7 +9,7 @@ let mydate = new Date()
 //console.log(typeof mydate);//--> object
 
 //let mycreatedDate = new Date(2023,0,21)
-let myCreatedDate = new Date(21-01-2024)
+let myCreatedDate = new Date(21-0-2024)
 //console.log(mycreatedDate.toDateString());
 
 
