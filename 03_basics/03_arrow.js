@@ -49,4 +49,4 @@ console.log(addTwo(2,8));//-->10
 
 const myArray = [2,4,6,8]
 
-myArray.forEach(() => ())
+myArray.forEach(() => {})
