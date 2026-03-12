@@ -6,11 +6,11 @@
 //let score=undefined //output is number & NaN
 //let score=true//output is number & 1
 //let score=false// output 0
-/*let score="tamana"//output NaN
+let score="tamana"//output NaN
 
-let ValueInNumber=Number(score)
-console.log(typeof ValueInNumber)
-console.log(ValueInNumber)*/
+//let ValueInNumber=Number(score)
+//console.log(typeof ValueInNumber)
+//console.log(ValueInNumber)
 
 
 //let isloggedin=1//output true
@@ -55,4 +55,4 @@ let str3=str1 + str2
 
 let gamecounter=56
 gamecounter++;
-console.log(gamecounter) //--> 57
+//console.log(gamecounter) //--> 57
