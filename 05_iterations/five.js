@@ -1,3 +1,4 @@
+//for Each
 const codingLanguages = ['JavaScript', 'Python', 'Java', 'C#', 'Ruby'];
 
 
