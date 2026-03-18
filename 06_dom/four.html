@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>DOM</title>
+            
+            </head>
+            <body>
+                <ul class="language"> 
+                        <li> javascript </li>
+                </ul>
+                <script>
+    function addLanguage(LangName){
+        const li = document.createElement("li")
+        li.innerHTML = `${LangName}`
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLanguage("java")
+    addLanguage("kotlin")
+    addLanguage("spring")
+
+   function addOptLanguage(LangName){
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(LangName))
+    document.querySelector('.language').appendChild(li)
+   }
+   addOptLanguage("golang")
+
+
+    function addLanguage(LangName){
+    const li = document.createElement('li')
+    li.textContent = LangName
+    document.querySelector('.language').appendChild(li)
+}
+addLanguage("telwind")
+
+//edit values
+
+const secondLang = document.querySelector("li:nth-child(2)")
+//secondLang.innerHTML = "vue"
+const newLi = document.createElement('li')
+newLi.textContent = "mojo"
+secondLang.replaceWith(newLi)
+
+
+const firstLang = document.querySelector("li:first-child")
+firstLang.outerHTML = '<li>typescript</li>'
+
+
+//remove
+const lastLang = document.querySelector("li:last-child")
+lastLang.remove()
+
+
+
+</script>
+</body>      
+</html>         
